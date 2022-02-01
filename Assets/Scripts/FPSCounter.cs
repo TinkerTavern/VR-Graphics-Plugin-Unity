@@ -3,14 +3,18 @@ using UnityEngine.UI;
 
 public class FPSCounter : MonoBehaviour
 {
-    public int avgFrameRate;
-    public Text display_Text;
-
-    public void Update()
+ 
+    public float timer, refresh, avgFramerate;
+    string display = "{0} FPS";
+    public Text m_Text;
+ 
+    private void Update()
     {
-        float current = 0;
-        current = Time.frameCount / Time.time;
-        avgFrameRate = (int)current;
-        display_Text.text = avgFrameRate.ToString() + " FPS";
+        //Change smoothDeltaTime to deltaTime or fixedDeltaTime to see the difference
+        float timelapse = Time.smoothDeltaTime;
+        timer = timer <= 0 ? refresh : timer -= timelapse;
+ 
+        if(timer <= 0) avgFramerate = (int) (1f / timelapse);
+        m_Text.text = string.Format(display,avgFramerate.ToString());
     }
 }
