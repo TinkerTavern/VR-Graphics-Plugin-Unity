@@ -135,6 +135,8 @@ GameObject:
   - component: {fileID: 67728514}
   - component: {fileID: 67728516}
   - component: {fileID: 67728515}
+  - component: {fileID: 67728518}
+  - component: {fileID: 67728517}
   m_Layer: 5
   m_Name: Resolution
   m_TagString: Untagged
@@ -203,6 +205,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 67728513}
   m_CullTransparentMesh: 1
+--- !u!114 &67728517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67728513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a9b103818323b438bf24995e6b5406, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  primaryButtonPress:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &67728518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67728513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ba94b0774fd98f4f8cfc030c4fc9da3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  watcher: {fileID: 67728517}
+  resolution: {fileID: 963194231}
+  IsPressed: 0
+  rotationAngle: {x: 45, y: 45, z: 45}
+  rotationDuration: 0.25
 --- !u!1 &251293281
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,7 +254,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &251293282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -622,9 +656,9 @@ GameObject:
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
   - component: {fileID: 963194230}
-  - component: {fileID: 963194231}
   - component: {fileID: 963194232}
   - component: {fileID: 963194233}
+  - component: {fileID: 963194231}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -727,7 +761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49b95f5dffe55334fa3eebb400216871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  frameCap: 30
+  frameCap: 144
 --- !u!114 &963194231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -735,18 +769,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f21a1579bce5fb89d86f69e71d050e73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   screenText: {fileID: 67728515}
-  maxResolutionWidthScale: 10
-  maxResolutionHeightScale: 10
-  minResolutionWidthScale: 0.5
-  minResolutionHeightScale: 0.5
-  scaleWidthIncrement: 0.1
-  scaleHeightIncrement: 0.1
+  maxResolutionScale: 2
+  minResolutionScale: 0.5
+  scaleIncrement: 0.1
+  resolutionScale: 1
 --- !u!114 &963194232
 MonoBehaviour:
   m_ObjectHideFlags: 0
