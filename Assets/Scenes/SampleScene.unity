@@ -137,6 +137,8 @@ GameObject:
   - component: {fileID: 67728515}
   - component: {fileID: 67728518}
   - component: {fileID: 67728517}
+  - component: {fileID: 67728520}
+  - component: {fileID: 67728519}
   m_Layer: 5
   m_Name: Resolution
   m_TagString: Untagged
@@ -233,10 +235,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   watcher: {fileID: 67728517}
-  resolution: {fileID: 963194231}
+  dynamicResolution: {fileID: 963194231}
   IsPressed: 0
-  rotationAngle: {x: 45, y: 45, z: 45}
-  rotationDuration: 0.25
+--- !u!114 &67728519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67728513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 119c286c5c9351042adf6a216fca7c59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  watcher: {fileID: 67728520}
+  dynamicResolution: {fileID: 963194231}
+  IsPressed: 0
+--- !u!114 &67728520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67728513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb4334d03db66b94c873b591f685f1cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondaryButtonPress:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &251293281
 GameObject:
   m_ObjectHideFlags: 0

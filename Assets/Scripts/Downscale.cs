@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class PrimaryReactor : MonoBehaviour
+public class Downscale : MonoBehaviour
 {
     public PrimaryButtonWatcher watcher;
     public DynamicResolutionTest dynamicResolution;
