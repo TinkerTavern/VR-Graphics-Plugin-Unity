@@ -5,22 +5,27 @@ using UnityEngine;
 public class FPSCap : MonoBehaviour
 {
     public int[] frameCaps = {30,45,60,72,90,120,144};
-    private int index = 0;
-    void Awake ()
+    public static int fpsCapIndex = 0;
+    void Start ()
     {
         QualitySettings.vSyncCount = 0;
-        Application.targetFrameRate = frameCaps[index];
+        Application.targetFrameRate = frameCaps[fpsCapIndex
+];
     }
 
     public void ChangeCap(bool isUp) {
         if (isUp) {
-            if (index < frameCaps.Length-1) {
-                Application.targetFrameRate = frameCaps[++index];
+            if (fpsCapIndex
+     < frameCaps.Length-1) {
+                Application.targetFrameRate = frameCaps[++fpsCapIndex
+        ];
             }
         }
         else {
-            if (index > 0) {
-                Application.targetFrameRate = frameCaps[--index];
+            if (fpsCapIndex
+     > 0) {
+                Application.targetFrameRate = frameCaps[--fpsCapIndex
+        ];
             }
         }
     }

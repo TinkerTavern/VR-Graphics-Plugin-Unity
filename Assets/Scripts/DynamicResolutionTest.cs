@@ -14,7 +14,7 @@ public class DynamicResolutionTest : MonoBehaviour
     public float minResolutionScale = 0.5f;
     public float scaleIncrement = 0.1f;
     UniversalRenderPipelineAsset urp;
-    public float resolutionScale = 1.0f;
+    public static float resolutionScale = 1.0f;
 
 
     // Use this for initialization

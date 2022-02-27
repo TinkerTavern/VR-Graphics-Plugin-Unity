@@ -251,7 +251,7 @@ PrefabInstance:
     - target: {fileID: 308630505131951716, guid: f8ea56c7d8d371c40b87591434bbbbbc,
         type: 3}
       propertyPath: m_Value
-      value: 4.85
+      value: 3.02
       objectReference: {fileID: 0}
     - target: {fileID: 308630505131951716, guid: f8ea56c7d8d371c40b87591434bbbbbc,
         type: 3}
@@ -267,6 +267,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_WholeNumbers
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 308630505131951716, guid: f8ea56c7d8d371c40b87591434bbbbbc,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1971794967}
+    - target: {fileID: 308630505131951716, guid: f8ea56c7d8d371c40b87591434bbbbbc,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShowSliderValue
+      objectReference: {fileID: 0}
+    - target: {fileID: 308630505131951716, guid: f8ea56c7d8d371c40b87591434bbbbbc,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: FPSScaleManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1318975203592309726, guid: f8ea56c7d8d371c40b87591434bbbbbc,
         type: 3}
@@ -307,6 +322,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FramerateScale
+      objectReference: {fileID: 0}
+    - target: {fileID: 4509872007100997372, guid: f8ea56c7d8d371c40b87591434bbbbbc,
+        type: 3}
+      propertyPath: m_Text
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 7123266223011684309, guid: f8ea56c7d8d371c40b87591434bbbbbc,
         type: 3}
@@ -373,7 +393,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: f8ea56c7d8d371c40b87591434bbbbbc, type: 3}
 --- !u!4 &286022357 stripped
 Transform:
@@ -595,6 +616,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &887086968 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3678577206148596849, guid: f8ea56c7d8d371c40b87591434bbbbbc,
+    type: 3}
+  m_PrefabInstance: {fileID: 2958238722637794294}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &887086970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887086968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0ae1ae650bbb642b0abf0df026cb27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frameCaps: 1e0000002d0000003c000000480000005a0000007800000090000000
 --- !u!1 &1030413394
 GameObject:
   m_ObjectHideFlags: 0
@@ -979,6 +1019,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1971794965 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3678577206148596849, guid: f8ea56c7d8d371c40b87591434bbbbbc,
+    type: 3}
+  m_PrefabInstance: {fileID: 286022356}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1971794967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971794965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7b2fed1232d0614e9fc63fc5479bb1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frameCaps: 1e0000002d0000003c0000005a0000007800000090000000
 --- !u!1001 &2958238722637794294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -990,6 +1049,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Value
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 308630505131951716, guid: f8ea56c7d8d371c40b87591434bbbbbc,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 887086970}
+    - target: {fileID: 308630505131951716, guid: f8ea56c7d8d371c40b87591434bbbbbc,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShowSliderValue
+      objectReference: {fileID: 0}
+    - target: {fileID: 308630505131951716, guid: f8ea56c7d8d371c40b87591434bbbbbc,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ResScaleManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1318975203592309726, guid: f8ea56c7d8d371c40b87591434bbbbbc,
         type: 3}
