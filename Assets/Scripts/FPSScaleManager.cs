@@ -7,7 +7,7 @@ public class FPSScaleManager : MonoBehaviour
 {
     public Text textSliderValue;
     public int[] frameCaps = {30,45,60,90,120,144};
-    public static int fpsCap;
+    public static int fpsCap = 3;
 
     void Start (){
         textSliderValue = GetComponent<Text>();
