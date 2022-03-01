@@ -9,8 +9,7 @@ public class FPSCap : MonoBehaviour
     void Start ()
     {
         QualitySettings.vSyncCount = 0;
-        Application.targetFrameRate = frameCaps[fpsCapIndex
-];
+        Application.targetFrameRate = frameCaps[fpsCapIndex];
     }
 
     public void ChangeCap(bool isUp) {
