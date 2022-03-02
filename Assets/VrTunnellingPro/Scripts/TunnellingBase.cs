@@ -182,7 +182,7 @@ namespace Sigtrap.VrTunnellingPro {
 		/// Maximum screen coverage.
 		/// </summary>
 		[Range(0f,1f)][Tooltip("Maximum screen coverage.")]
-		public float effectCoverage = 0.75f;
+		public static float effectCoverage = 0.75f;
 		/// <summary>
 		/// Feather around cut-off as fraction of screen.
 		/// </summary>
