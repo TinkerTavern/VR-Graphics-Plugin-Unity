@@ -8,7 +8,6 @@ using UnityEngine.Rendering.Universal;
 
 public class DynamicResolution : MonoBehaviour
 {
-    public Text screenText;
     UniversalRenderPipelineAsset urp;
     public static float resolutionScale = 1.0f;
 
@@ -16,6 +15,6 @@ public class DynamicResolution : MonoBehaviour
     {
         urp = (UniversalRenderPipelineAsset)GraphicsSettings.currentRenderPipeline;
         urp.renderScale = resolutionScale;
-        screenText.text = string.Format("Scale: {0:F1}\n", urp.renderScale);
+        gameObject.GetComponent<Text>().text = string.Format("Resolution: {0:F1}x\n", urp.renderScale);
     }
 }

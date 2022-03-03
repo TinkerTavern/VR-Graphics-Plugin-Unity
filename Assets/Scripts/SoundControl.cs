@@ -5,12 +5,11 @@ using UnityEngine;
 
 public class SoundControl : MonoBehaviour
 {
-    public Text screenText;
     void Start()
     {
         if (!SoundToggleManager.soundOn) {
             AudioListener.pause  = true;
-            screenText.text = "Sound OFF";
+            gameObject.GetComponent<Text>().text = "Sound OFF";
         }
     }
 }

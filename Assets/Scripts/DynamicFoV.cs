@@ -9,7 +9,6 @@ using Sigtrap.VrTunnellingPro;
 
 public class DynamicFoV : MonoBehaviour
 {
-    public Text screenText;
     private TunnellingMobile tunnellingMobile;
     public static float fovScale = 1.0f;
 
@@ -17,6 +16,6 @@ public class DynamicFoV : MonoBehaviour
     {
         tunnellingMobile =  Camera.main.GetComponent<TunnellingMobile>();
         tunnellingMobile.effectCoverage = 1-fovScale;
-        screenText.text = string.Format("Scale: {0:F1}\n", fovScale);
+        gameObject.GetComponent<Text>().text = string.Format("FoV: {0:F1}x\n", fovScale);
     }
 }
