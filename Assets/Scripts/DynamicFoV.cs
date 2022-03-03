@@ -15,7 +15,7 @@ public class DynamicFoV : MonoBehaviour
 
     void Start()
     {
-        tunnellingMobile = gameObject.transform.parent.gameObject.GetComponent<TunnellingMobile>();
+        tunnellingMobile =  Camera.main.GetComponent<TunnellingMobile>();
         tunnellingMobile.effectCoverage = 1-fovScale;
         screenText.text = string.Format("Scale: {0:F1}\n", fovScale);
     }
