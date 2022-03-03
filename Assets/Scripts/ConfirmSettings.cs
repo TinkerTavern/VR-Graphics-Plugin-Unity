@@ -6,11 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class ConfirmSettings : MonoBehaviour
 {
+    public string sceneToLoad;
     public void OnButtonPress() {
         DynamicResolution.resolutionScale = ResScaleManager.resScale;
         FPSCap.fpsCapIndex = FPSScaleManager.fpsCap;
         DynamicFoV.fovScale = FoVScaleManager.fovScale;
-        SceneManager.LoadScene (sceneName:"GameScene");
+        SceneManager.LoadScene (sceneName:sceneToLoad);
 
     }
 }
