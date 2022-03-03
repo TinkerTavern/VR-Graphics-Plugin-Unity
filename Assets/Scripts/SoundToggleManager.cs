@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class SoundToggleManager : MonoBehaviour
 {
-  public static bool soundOn = true;
-
+  public void Start() {
+    ToggleSound(true);
+  }
   public void ToggleSound (bool value) {
-    soundOn = value;
+    AudioListener.pause = !value;
   }
 }

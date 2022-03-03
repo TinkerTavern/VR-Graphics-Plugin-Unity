@@ -3,13 +3,11 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 
-public class SoundControl : MonoBehaviour
+public class SoundToggleText : MonoBehaviour
 {
     void Start()
     {
-        if (!SoundToggleManager.soundOn) {
-            AudioListener.pause  = true;
+        if (AudioListener.pause)
             gameObject.GetComponent<Text>().text = "Sound OFF";
-        }
     }
 }

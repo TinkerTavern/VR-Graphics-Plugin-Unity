@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class FPSCounter : MonoBehaviour
+public class FPSCounterText : MonoBehaviour
 {
  
     public float timer, refresh, avgFramerate;

@@ -7,10 +7,11 @@ using System;
 public class ResScaleManager : MonoBehaviour
 {
   private Text textSliderValue;
-  public static float resScale = 1.0f;
+  public static float resScale;
 
   void Start (){
     textSliderValue = GetComponent<Text>();
+    resScale = 1.0f;
   }
 
   public void ShowSliderValue (float value) {

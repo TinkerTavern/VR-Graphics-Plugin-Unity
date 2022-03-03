@@ -522,7 +522,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 353585031}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c058c3446c731d4c9af8e3b840dcba5, type: 3}
+  m_Script: {fileID: 11500000, guid: f4ef582713e922747bc3522964d55187, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: GameScene
@@ -954,7 +954,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 353585033}
-        m_TargetAssemblyTypeName: ConfirmSettings, Assembly-CSharp
+        m_TargetAssemblyTypeName: ConfirmSettingsButtonManager, Assembly-CSharp
         m_MethodName: OnButtonPress
         m_Mode: 1
         m_Arguments:
@@ -1578,8 +1578,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7b2fed1232d0614e9fc63fc5479bb1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textSliderValue: {fileID: 0}
+  textSliderValue: {fileID: 2055607617}
   frameCaps: 1e0000002d0000003c0000005a0000007800000090000000
+--- !u!114 &2055607617 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7994324972551037870, guid: f8ea56c7d8d371c40b87591434bbbbbc,
+    type: 3}
+  m_PrefabInstance: {fileID: 286022356}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2958238722637794294
 PrefabInstance:
   m_ObjectHideFlags: 0
