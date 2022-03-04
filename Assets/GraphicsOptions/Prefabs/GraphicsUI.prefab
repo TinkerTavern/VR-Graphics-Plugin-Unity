@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 393636216828985108}
   - component: {fileID: 4603383583066032107}
   - component: {fileID: 1699167420260340605}
-  - component: {fileID: 704358719545972490}
+  - component: {fileID: 4503203415165982480}
   m_Layer: 5
   m_Name: FoV
   m_TagString: Untagged
@@ -80,7 +80,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Field of View
---- !u!114 &704358719545972490
+--- !u!114 &4503203415165982480
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -89,7 +89,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 955060997796184069}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 096b873cb157c104c9b7a8b6acf7f7cc, type: 3}
+  m_Script: {fileID: 11500000, guid: 09efdf0b664233f49b3c3b39182e2f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2833482994277208993
