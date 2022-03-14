@@ -772,5 +772,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: XRRig
       objectReference: {fileID: 0}
+    - target: {fileID: 4470642484697668815, guid: c3d4e7ab6be21ca49ad8a8f92edacfc7,
+        type: 3}
+      propertyPath: m_CameraYOffset
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5375193440182262838, guid: c3d4e7ab6be21ca49ad8a8f92edacfc7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3d4e7ab6be21ca49ad8a8f92edacfc7, type: 3}

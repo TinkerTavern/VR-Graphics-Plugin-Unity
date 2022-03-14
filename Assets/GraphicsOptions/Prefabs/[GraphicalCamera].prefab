@@ -116,7 +116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0509641f74d9c24c80e405cf0068b58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  motionTarget: {fileID: 0}
+  motionTarget: {fileID: 9170114999080121242}
   effectColor: {r: 0, g: 0, b: 0, a: 1}
   effectCoverage: 0.75
   effectFeather: 0

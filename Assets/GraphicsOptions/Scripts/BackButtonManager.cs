@@ -8,7 +8,7 @@ public class BackButtonManager : MonoBehaviour
 {
         void Update()
     {
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("return"))
         {
             SceneManager.LoadScene (sceneName:"GraphicsOptions");
         }
