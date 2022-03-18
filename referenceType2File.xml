@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeDate>
+    <guid>09a94f098fd0c0f40a3ae3fb24ebdba5</guid>
+    <fileName>Assets/GraphicsOptions/Scripts/BackButtonManager.cs</fileName>
+    <timeStamp>2022-03-14T05:36:39.4109906+00:00</timeStamp>
+    <typeFullName>
+      <string>BackButtonManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f4ef582713e922747bc3522964d55187</guid>
+    <fileName>Assets/GraphicsOptions/Scripts/ConfirmSettingsButtonManager.cs</fileName>
+    <timeStamp>2022-03-18T12:29:38.8474279+00:00</timeStamp>
+    <typeFullName>
+      <string>ConfirmSettingsButtonManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>096b873cb157c104c9b7a8b6acf7f7cc</guid>
+    <fileName>Assets/GraphicsOptions/Scripts/FoVScaleManager.cs</fileName>
+    <timeStamp>2022-03-18T12:18:56.6769588+00:00</timeStamp>
+    <typeFullName>
+      <string>FoVScaleManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>09efdf0b664233f49b3c3b39182e2f11</guid>
+    <fileName>Assets/GraphicsOptions/Scripts/FoVScaleText.cs</fileName>
+    <timeStamp>2022-03-03T14:33:41.4599289+00:00</timeStamp>
+    <typeFullName>
+      <string>FoVScaleText</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>63b5c94378aba08469628f2a8bcd5576</guid>
+    <fileName>Assets/GraphicsOptions/Scripts/FPSCounterText.cs</fileName>
+    <timeStamp>2022-03-03T14:32:04.906784+00:00</timeStamp>
+    <typeFullName>
+      <string>FPSCounterText</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a7b2fed1232d0614e9fc63fc5479bb1d</guid>
+    <fileName>Assets/GraphicsOptions/Scripts/FPSScaleManager.cs</fileName>
+    <timeStamp>2022-03-03T14:28:46.8826004+00:00</timeStamp>
+    <typeFullName>
+      <string>FPSScaleManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5a0ae1ae650bbb642b0abf0df026cb27</guid>
+    <fileName>Assets/GraphicsOptions/Scripts/ResScaleManager.cs</fileName>
+    <timeStamp>2022-03-03T14:28:09.4695794+00:00</timeStamp>
+    <typeFullName>
+      <string>ResScaleManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c09a32ae1b9b60d40ad299e90cc58c5a</guid>
+    <fileName>Assets/GraphicsOptions/Scripts/ResScaleText.cs</fileName>
+    <timeStamp>2022-03-03T14:32:28.4033228+00:00</timeStamp>
+    <typeFullName>
+      <string>ResScaleText</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>18bfb6ac4879fdb4db8b1338b84642bc</guid>
+    <fileName>Assets/GraphicsOptions/Scripts/SoundToggleManager.cs</fileName>
+    <timeStamp>2022-03-03T14:28:26.8799341+00:00</timeStamp>
+    <typeFullName>
+      <string>SoundToggleManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1c111a6dbaa48bc449d5a3328aacc8ce</guid>
+    <fileName>Assets/GraphicsOptions/Scripts/SoundToggleText.cs</fileName>
+    <timeStamp>2022-03-03T14:31:50.6975576+00:00</timeStamp>
+    <typeFullName>
+      <string>SoundToggleText</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b3550c55ddb8c674681dea2f8ddf2733</guid>
+    <fileName>Assets/GraphicsOptions/Scripts/TextureResolutionManager.cs</fileName>
+    <timeStamp>2022-03-14T23:43:46.7496791+00:00</timeStamp>
+    <typeFullName>
+      <string>TextureResolutionManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>811a68bf3e8e908408d690aea47a7aa4</guid>
+    <fileName>Assets/GraphicsOptions/Scripts/TextureResText.cs</fileName>
+    <timeStamp>2022-03-14T23:39:51.5991842+00:00</timeStamp>
+    <typeFullName>
+      <string>TextureResText</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>842f43ac94b4b4f72ac0898650ddcc44</guid>
+    <fileName>Assets/UnityAssetCleaner-SuppotCache/Assets/Cleaner/Editor/AssetCollector.cs</fileName>
+    <timeStamp>2015-08-20T13:52:06+01:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.AssetCollector</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>805140a4856714e288ea84985d3023df</guid>
+    <fileName>Assets/UnityAssetCleaner-SuppotCache/Assets/Cleaner/Editor/AssetReferenceCollection.cs</fileName>
+    <timeStamp>2015-08-20T13:52:06+01:00</timeStamp>
+    <typeFullName>
+      <string>AssetReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>202c278a17939b24c8b79c0ee1f94d8f</guid>
+    <fileName>Assets/UnityAssetCleaner-SuppotCache/Assets/Cleaner/Editor/ClassReferenceCollection.cs</fileName>
+    <timeStamp>2015-08-20T13:52:06+01:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.ClassReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0d05386265df34bac8d0b6df44aa494c</guid>
+    <fileName>Assets/UnityAssetCleaner-SuppotCache/Assets/Cleaner/Editor/CollectionData.cs</fileName>
+    <timeStamp>2015-08-20T13:52:06+01:00</timeStamp>
+    <typeFullName>
+      <string>CollectionData</string>
+      <string>TypeDate</string>
+      <string>IReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>74eec3bfba0594259ac2843353c082a3</guid>
+    <fileName>Assets/UnityAssetCleaner-SuppotCache/Assets/Cleaner/Editor/FindUnusedAssets.cs</fileName>
+    <timeStamp>2015-08-20T13:52:06+01:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.FindUnusedAssets</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2c4f01a79a77a45a9a84004cc2b78098</guid>
+    <fileName>Assets/UnityAssetCleaner-SuppotCache/Assets/Cleaner/Editor/ShaderReferenceCollection.cs</fileName>
+    <timeStamp>2015-08-20T13:52:06+01:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.ShaderReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ef7438afa095dea40ad13868ce6a3788</guid>
+    <fileName>Assets/VrTunnellingPro/Editor/VrtpEditorUtils.cs</fileName>
+    <timeStamp>2018-12-31T15:37:23+00:00</timeStamp>
+    <typeFullName>
+      <string>Sigtrap.VrTunnellingPro.Editors.VrtpEditorUtils</string>
+      <string>Sigtrap.VrTunnellingPro.Editors.AutoProperty</string>
+      <string>Sigtrap.VrTunnellingPro.Editors.Ext_SerializedProperty</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>20db7826b1492c047a5c0f440ef88491</guid>
+    <fileName>Assets/VrTunnellingPro/Editor/VrtpStyles.cs</fileName>
+    <timeStamp>2018-12-31T15:37:23+00:00</timeStamp>
+    <typeFullName>
+      <string>Sigtrap.VrTunnellingPro.Editors.VrtpStyles</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>21508e5ebd52e094188cd6b8cf46d1cd</guid>
+    <fileName>Assets/VrTunnellingPro/Editor/VrTunnellingProEditorBase.cs</fileName>
+    <timeStamp>2020-07-05T14:52:07+01:00</timeStamp>
+    <typeFullName>
+      <string>Sigtrap.VrTunnellingPro.Editors.VrTunnellingProEditorBase</string>
+      <string>Sigtrap.VrTunnellingPro.Editors.VrtpAboutWindow</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9a4923900aecacb4591ac2d735017984</guid>
+    <fileName>Assets/VrTunnellingPro/Editor/VrTunnellingProEditorUtils.cs</fileName>
+    <timeStamp>2018-11-19T16:24:37+00:00</timeStamp>
+    <typeFullName>
+      <string>Sigtrap.VrTunnellingPro.Editors.VrTunnellingProEditorUtils</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cf7cd710f2586af41a1be4e3bec43233</guid>
+    <fileName>Assets/VrTunnellingPro/Editor/VrTunnellingProImageEditor.cs</fileName>
+    <timeStamp>2018-12-31T15:37:23+00:00</timeStamp>
+    <typeFullName>
+      <string>Sigtrap.VrTunnellingPro.Editors.VrTunnellingProImageEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ac28145fbedc7494a836dcc039cfd686</guid>
+    <fileName>Assets/VrTunnellingPro/Editor/VrTunnellingProMobileEditor.cs</fileName>
+    <timeStamp>2019-01-06T13:36:23+00:00</timeStamp>
+    <typeFullName>
+      <string>Sigtrap.VrTunnellingPro.Editors.VrTunnellingProMobileEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>590d9cc426b9df042a48b2c4a7ac7dc6</guid>
+    <fileName>Assets/VrTunnellingPro/Editor/VrTunnellingProPresetEditor.cs</fileName>
+    <timeStamp>2020-07-05T16:39:04+01:00</timeStamp>
+    <typeFullName>
+      <string>Sigtrap.VrTunnellingPro.Editors.VrTunnellingProPresetEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>805552acb42b1cf49aeb3b218bc48c2e</guid>
+    <fileName>Assets/VrTunnellingPro/Editor/VrTunnellingProPresetEditorBase.cs</fileName>
+    <timeStamp>2020-07-05T14:52:07+01:00</timeStamp>
+    <typeFullName>
+      <string>Sigtrap.VrTunnellingPro.Editors.VrTunnellingProPresetEditorBase</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c75481e3f4b87b2438e8b8dc62069f3b</guid>
+    <fileName>Assets/VrTunnellingPro/Editor/VrTunnellingProPresetMobileEditor.cs</fileName>
+    <timeStamp>2020-07-05T16:39:04+01:00</timeStamp>
+    <typeFullName>
+      <string>Sigtrap.VrTunnellingPro.Editors.VrTunnellingProPresetMobileEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7ac20df6282234e419ee9915e0fd1676</guid>
+    <fileName>Assets/VrTunnellingPro/Scripts/Tunnelling.cs</fileName>
+    <timeStamp>2022-03-02T18:34:15.9860675+00:00</timeStamp>
+    <typeFullName>
+      <string>Sigtrap.VrTunnellingPro.Tunnelling</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c869a16825cd4504bb0f3e2a50a08c16</guid>
+    <fileName>Assets/VrTunnellingPro/Scripts/TunnellingBase.cs</fileName>
+    <timeStamp>2022-03-02T19:25:01.4205611+00:00</timeStamp>
+    <typeFullName>
+      <string>Sigtrap.VrTunnellingPro.TunnellingBase</string>
+      <string>Sigtrap.VrTunnellingPro.TunnellingBase+BackgroundMode</string>
+      <string>Sigtrap.VrTunnellingPro.TunnellingBase+MaskMode</string>
+      <string>Sigtrap.VrTunnellingPro.TunnellingBase+MSAA</string>
+      <string>Sigtrap.VrTunnellingPro.TunnellingBase+ForceVignetteMode</string>
+      <string>Sigtrap.VrTunnellingPro.Angle</string>
+      <string>Sigtrap.VrTunnellingPro.Angle3</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d8ac31fbd6a773448a57dcaf05ab5cfc</guid>
+    <fileName>Assets/VrTunnellingPro/Scripts/TunnellingImageBase.cs</fileName>
+    <timeStamp>2020-07-05T14:52:07+01:00</timeStamp>
+    <typeFullName>
+      <string>Sigtrap.VrTunnellingPro.TunnellingImageBase</string>
+      <string>Sigtrap.VrTunnellingPro.TunnellingImageBase+BlurKernel</string>
+      <string>Sigtrap.VrTunnellingPro.TunnellingImageBase+CounterVelocityMode</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8d1fd796faee974479161591edcc08f0</guid>
+    <fileName>Assets/VrTunnellingPro/Scripts/TunnellingMaskObject.cs</fileName>
+    <timeStamp>2022-03-02T18:34:15+00:00</timeStamp>
+    <typeFullName>
+      <string>Sigtrap.VrTunnellingPro.TunnellingMaskObject</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1c60f0bd60f9f124f84487f63c38d67a</guid>
+    <fileName>Assets/VrTunnellingPro/Scripts/TunnellingMaskObjectMobile.cs</fileName>
+    <timeStamp>2022-03-02T17:28:47+00:00</timeStamp>
+    <typeFullName>
+      <string>Sigtrap.VrTunnellingPro.TunnellingMaskObjectMobile</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f0509641f74d9c24c80e405cf0068b58</guid>
+    <fileName>Assets/VrTunnellingPro/Scripts/TunnellingMobile.cs</fileName>
+    <timeStamp>2019-01-06T13:34:17+00:00</timeStamp>
+    <typeFullName>
+      <string>Sigtrap.VrTunnellingPro.TunnellingMobile</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bf080b72748b57f4a9c9916788961d0e</guid>
+    <fileName>Assets/VrTunnellingPro/Scripts/TunnellingOpaque.cs</fileName>
+    <timeStamp>2022-03-02T18:34:15+00:00</timeStamp>
+    <typeFullName>
+      <string>Sigtrap.VrTunnellingPro.TunnellingOpaque</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ed489b29026f80d43be29fc3158c6078</guid>
+    <fileName>Assets/VrTunnellingPro/Scripts/TunnellingPreset.cs</fileName>
+    <timeStamp>2022-03-02T17:28:47.7003511+00:00</timeStamp>
+    <typeFullName>
+      <string>Sigtrap.VrTunnellingPro.TunnellingPreset</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>74e46fa1f78dceb4b894a3944f88028f</guid>
+    <fileName>Assets/VrTunnellingPro/Scripts/TunnellingPresetBase.cs</fileName>
+    <timeStamp>2020-07-05T14:52:07+01:00</timeStamp>
+    <typeFullName>
+      <string>Sigtrap.VrTunnellingPro.TunnellingPresetBase</string>
+      <string>Sigtrap.VrTunnellingPro.TunnellingPresetBase+MotionSettings</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f9722734c14e04d45af688a5ee6cd4e7</guid>
+    <fileName>Assets/VrTunnellingPro/Scripts/TunnellingPresetMobile.cs</fileName>
+    <timeStamp>2019-01-05T15:05:01+00:00</timeStamp>
+    <typeFullName>
+      <string>Sigtrap.VrTunnellingPro.TunnellingPresetMobile</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+</ArrayOfTypeDate>
