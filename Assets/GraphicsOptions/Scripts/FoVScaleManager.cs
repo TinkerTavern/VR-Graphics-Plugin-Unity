@@ -11,6 +11,7 @@ public class FoVScaleManager : MonoBehaviour
 
   void Start (){
     textSliderValue = GetComponent<Text>();
+    ShowSliderValue(1.0f);
   }
 
   public void ShowSliderValue (float value) {
