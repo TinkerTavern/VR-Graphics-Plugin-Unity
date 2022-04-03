@@ -129,7 +129,7 @@ namespace Sigtrap.VrTunnellingPro {
 
 		protected const string PATH_SHADERS = "Hidden/VrTunnellingPro/";
 		protected const string PATH_MESHES = "Meshes/";
-		protected const string PATH_IRISMESH = "Iris";
+		public string PATH_IRISMESH = "Iris";
 		protected const string PROP_OUTER = "_FxOuter";
 		protected const string PROP_INNER = "_FxInner";
 		protected const string PROP_COLOR = "_Color";

@@ -15,6 +15,10 @@ public class FoVScaleText : MonoBehaviour
     {
         tunnellingMobile =  Camera.main.GetComponent<TunnellingMobile>();
         tunnellingMobile.effectCoverage = 1-FoVScaleManager.fovScale;
+        if (tunnellingMobile.effectCoverage == 0)
+            tunnellingMobile.forceVignetteValue = 0.0f;
+        else
+            tunnellingMobile.forceVignetteValue = 1.0f;
         gameObject.GetComponent<Text>().text = string.Format("FoV: {0:F1}x\n", FoVScaleManager.fovScale);
     }
 }
