@@ -25,6 +25,8 @@ public class FoVScaleText : MonoBehaviour
 
     string getMeshForFoVValue(float value) {
         int index = FoVScaleManager.shapeScalesList.FindLastIndex(a => a.scaleStart <= value);
+        if (index == -1)
+            return "Iris"; // Use default if index out of range
         return FoVScaleManager.shapeScalesList[index].meshName;
     }
 }

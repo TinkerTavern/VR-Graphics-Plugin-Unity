@@ -2226,6 +2226,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoVScale
       objectReference: {fileID: 0}
+    - target: {fileID: 4509872007100997372, guid: f8ea56c7d8d371c40b87591434bbbbbc,
+        type: 3}
+      propertyPath: m_Text
+      value: 1.0
+      objectReference: {fileID: 0}
     - target: {fileID: 7123266223011684309, guid: f8ea56c7d8d371c40b87591434bbbbbc,
         type: 3}
       propertyPath: m_Name
@@ -2319,11 +2324,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shapeScales:
   - scaleStart: 0
-    meshName: Circle
+    meshName: Square
   - scaleStart: 0.5
     meshName: Rectangle
-  - scaleStart: 0.8
-    meshName: Square
 --- !u!1 &1927225028
 GameObject:
   m_ObjectHideFlags: 0

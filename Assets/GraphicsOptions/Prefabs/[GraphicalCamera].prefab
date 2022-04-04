@@ -116,9 +116,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0509641f74d9c24c80e405cf0068b58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PATH_IRISMESH: Iris
   motionTarget: {fileID: 9170114999080121242}
   effectColor: {r: 0, g: 0, b: 0, a: 1}
-  effectCoverage: 0.75
+  effectCoverage: 0
   effectFeather: 0
   effectSkybox: {fileID: 0}
   applyColorToBackground: 0
@@ -138,7 +139,7 @@ MonoBehaviour:
   velocityMax: 0
   velocitySmoothing: 0.15
   forceVignetteMode: 10
-  forceVignetteValue: 1
+  forceVignetteValue: 0
   motionEffectTarget: {fileID: 0}
   useCounterMotion: 0
   counterRotationStrength: 1
@@ -156,6 +157,7 @@ MonoBehaviour:
   stencilReference: 1
   stencilMask: 255
   stencilBias: 1
+  _irisMesh: {fileID: 0}
 --- !u!114 &9170114999028924300
 MonoBehaviour:
   m_ObjectHideFlags: 0
