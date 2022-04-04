@@ -128,7 +128,7 @@ namespace Sigtrap.VrTunnellingPro {
 		public const string GLOBAL_PROP_FOGBLEND = "_VRTP_Cage_FogBlend";
 
 		protected const string PATH_SHADERS = "Hidden/VrTunnellingPro/";
-		protected const string PATH_MESHES = "Meshes/";
+		public const string PATH_MESHES = "Meshes/";
 		public string PATH_IRISMESH = "Iris";
 		protected const string PROP_OUTER = "_FxOuter";
 		protected const string PROP_INNER = "_FxInner";

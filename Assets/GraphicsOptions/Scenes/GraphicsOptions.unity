@@ -2082,6 +2082,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1044513264367677555, guid: c3d4e7ab6be21ca49ad8a8f92edacfc7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4470642484697668812, guid: c3d4e7ab6be21ca49ad8a8f92edacfc7,
         type: 3}
       propertyPath: m_RootOrder
@@ -2312,6 +2317,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 096b873cb157c104c9b7a8b6acf7f7cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shapeScales:
+  - scaleStart: 0
+    meshName: Circle
+  - scaleStart: 0.5
+    meshName: Rectangle
+  - scaleStart: 0.8
+    meshName: Square
 --- !u!1 &1927225028
 GameObject:
   m_ObjectHideFlags: 0

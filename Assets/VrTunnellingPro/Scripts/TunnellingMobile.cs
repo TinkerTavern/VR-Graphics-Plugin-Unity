@@ -102,7 +102,7 @@ namespace Sigtrap.VrTunnellingPro {
 		int _propColor, _propSkybox, _propWriteZ;
 		int _globPropStencilRef, _globPropStencilMask, _globPropStencilBias;
 		Material _irisMatOuter, _irisMatInner;
-		Mesh _irisMesh;
+		public Mesh _irisMesh;
 		Dictionary<Renderer, MeshFilter> _maskObjects = new Dictionary<Renderer, MeshFilter>();
 		Stack<Mesh> _skinnedMeshPool = new Stack<Mesh>();
 		Stack<Mesh> _skinnedMeshesRendering = new Stack<Mesh>();
